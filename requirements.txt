@@ -5,3 +5,4 @@ langchain
 pypdf
 faiss-cpu
 langchain_community
+python-dotenv
