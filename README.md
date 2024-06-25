@@ -2,7 +2,7 @@
 # RAG - Chat with PDF using AWS Bedrock
 
 <div align="center">
-<img width="446" alt="image" src="Chat-PDF.png">
+<img width="446" alt="image" src="Chat-PDF (4).png">
 </div>
 
 This project demonstrates how to use the AWS Bedrock Titan Embeddings model to generate embeddings, store them in a FAISS vector store, and interact with them using a Streamlit app. You can ask questions about PDF documents, and the app will provide detailed answers using an LLM model (Mistral) from AWS Bedrock.
