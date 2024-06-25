@@ -5,7 +5,7 @@
 <img width="446" alt="image" src="Chat-PDF (4).png">
 </div>
 
-This project demonstrates how to use the AWS Bedrock Titan Embeddings model to generate embeddings, store them in a FAISS vector store, and interact with them using a Streamlit app. You can ask questions about PDF documents, and the app will provide detailed answers using an LLM model (Mistral) from AWS Bedrock.
+This project demonstrates how to use the AWS Bedrock Titan Embeddings model to generate embeddings, store them in a FAISS vector store, and interact with them using a Streamlit app. You can ask questions about PDF documents, and the app will provide detailed answers using Open-Source LLM models (LLama3, Mistral, Amazon Titan Text) from AWS Bedrock.
 
 ## Prerequisites
 
@@ -42,7 +42,6 @@ You will also need AWS credentials configured to access AWS Bedrock.
 ## Project Structure
 
 - `app.py`: The main script to run the Streamlit app.
-- `data/`: Directory where your PDF files should be placed.
 
 ## How to Run
 
@@ -57,15 +56,14 @@ You will also need AWS credentials configured to access AWS Bedrock.
 
 ## Notes
 
-- Ensure your PDF files are in the `data/` directory.
 - The script uses AWS Bedrock services, so make sure your AWS credentials are properly configured.
 
 ## Example
 
-1. Place your PDF files in the `data/` directory.
-2. Run the Streamlit app.
+1. Run the Streamlit app.
+2. Upload Your PDF Document first which has text.
 3. In the sidebar, click "Vectors Update" to process the PDF files.
-4. Ask a question in the main interface and click "Mistral Output" to get the answer.
+4. Ask a question in the main interface and click "Llama3 Output" or "Mistral Output" or "Amazon Titan Text Output" to get the answer.
 
 ## License
 
